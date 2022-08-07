@@ -121,7 +121,7 @@ li {
     padding: 5px;
 }
 
-.card-content {
+.cards-content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
