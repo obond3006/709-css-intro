@@ -82,14 +82,14 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 .pricing-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 480px) {
     .pricing-cards {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -124,6 +124,7 @@ li {
 .card-content {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
