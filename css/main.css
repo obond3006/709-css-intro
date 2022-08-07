@@ -76,6 +76,10 @@ h1 {
     height: 100%;
 }
 
+iframe {
+    border: none;
+}
+
 .pricing-cards {
     margin: 20px 2%;
     display: grid;
