@@ -1,0 +1,17 @@
+footer {
+    background-color: #ddd;
+    padding: 2%;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+footer > p {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    color: darkgray;
+}
